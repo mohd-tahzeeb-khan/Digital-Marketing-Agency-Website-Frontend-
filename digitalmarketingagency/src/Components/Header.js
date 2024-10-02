@@ -17,7 +17,7 @@ const Header = () => {
         alt="Picture of the author"
         />
         </div>
-        <div className={`${fredokafont.className} flex gap-5 self-center bg-white px-5 py-3 rounded-full uppercase`}>
+        <div className={`${fredokafont.className} flex gap-5 self-center bg-[#E9EFEC] px-5 py-3 rounded-full uppercase`}>
            <Link className='bg-transparent font-semibold text-lg hover:scale-110 hover:underline-offset-4 tracking-widest' href={"/"}>Home</Link> 
            <Link className='bg-transparent font-semibold text-lg hover:scale-110 hover:underline-offset-4 tracking-widest' href={"/"}>Works</Link> 
            <Link className='bg-transparent font-semibold text-lg hover:scale-110 hover:underline-offset-4 tracking-widest' href={"/"}>About us</Link> 
