@@ -1,19 +1,19 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import digiMlogo from '../public/images/digiM-logo.png'
+//import digiMlogo from '/images/digiM-logo.png'
 import {Fredoka} from 'next/font/google';
 
 const fredokafont=Fredoka({weight:'400', subsets:["latin"]})
 const Header = () => {
   return (
     <>
-    <nav className='flex justify-between w-[100%] h-24'>
-        <div className='logo self-center px-4 py-7'>
+    <nav className='flex justify-around w-[100%] h-24 bg-[#C4DAD2]'>
+        <div className='logo self-center py-7'>
         <Image 
-        src={digiMlogo}
-        width={120}
-        height={60}
+        src='/images/digiM-logo.png'
+        width={220}
+        height={100}
         alt="Picture of the author"
         />
         </div>
