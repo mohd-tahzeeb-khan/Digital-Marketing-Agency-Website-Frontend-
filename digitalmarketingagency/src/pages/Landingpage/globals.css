@@ -1,0 +1,17 @@
+.landing{
+    height: 100vh;
+
+}
+.agency::before{
+    content: url('/images/codelogo.png');
+    position: absolute;
+    top: 165px;
+    left: 38%;
+  }
+  .agency::after{
+    content: url('/images/blur.png');
+    position: absolute;
+    top: 165px;
+    right: 38%;
+  }
+
