@@ -24,7 +24,7 @@ const Header = () => {
            <Link className='bg-transparent font-semibold text-lg hover:scale-110 hover:underline-offset-4 tracking-widest' href={"/"}>Services</Link> 
         </div>
         <div className='self-center'>
-        <Link className=' font-semibold text-lg  bg-black rounded-full py-3 px-5 text-white mx-5' href={"/"}>Let's Chat</Link> 
+        <Link className=' font-semibold text-lg  bg-[#16423C] rounded-full py-3 px-5 text-white mx-5' href={"/"}>Let's Chat</Link> 
         </div>
     </nav>
     </>
